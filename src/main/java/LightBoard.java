@@ -28,11 +28,11 @@ public class LightBoard
   {
     /* to be implemented in part (b) */
     int num=0;
-    if(lights[row][col]==true){
+    
       for(int r=0;r<lights.length;r++){
         if(lights[r][col]==true){
           num++;
-        }
+        
       }
     }
     if(lights[row][col]&&num%2==0){
