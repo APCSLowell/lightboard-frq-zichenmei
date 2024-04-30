@@ -42,6 +42,7 @@ public class LightBoard
     }
     }
     if(lights[row][col]==false){
+      int num=0;
       for(int r=0;r<lights.length;r++){
         if(lights[r][col]==true){
           num++;
